@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CybSDK_Python3_DataDemo", "CybSDK_Python_DataDemo\CybSDK_Python3_DataDemo.pyproj", "{4E45F35B-D6C3-4CA5-BE86-1BBB8539DA1B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CybSDK_Python3_HapticDemo", "CybSDK_Python_HapticDemo\CybSDK_Python3_HapticDemo.pyproj", "{10B12BDA-9011-48AC-99D3-56221EC83DF6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CybSDK_Python3_JumpCrouchDemo", "CybSDK_Python_JumpCrouchDemo\CybSDK_Python3_JumpCrouchDemo.pyproj", "{5CB28264-628D-4E68-8F53-6E2F4385BCF2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CybSDK_Python3_ConnectionDemo", "CybSDK_Python_ConnectionDemo\CybSDK_Python3_ConnectionDemo.pyproj", "{F9893C0D-17D8-457A-A3F7-75BEA602A655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CybSDK", "CybSDK", "{DEB29B9D-70FE-43D8-BDCB-2A90AA5F0D94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cybsdk", "cybsdk", "{28F73230-F0C0-4F94-8C72-28BF7215BEA0}"
+	ProjectSection(SolutionItems) = preProject
+		CybSDK\cybsdk\__init__.py = CybSDK\cybsdk\__init__.py
+		CybSDK\cybsdk\_VirtDevice.py = CybSDK\cybsdk\_VirtDevice.py
+		CybSDK\cybsdk\IVirtDevice.py = CybSDK\cybsdk\IVirtDevice.py
+		CybSDK\cybsdk\Virt.py = CybSDK\cybsdk\Virt.py
+		CybSDK\cybsdk\VirtDeviceInfo.py = CybSDK\cybsdk\VirtDeviceInfo.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{DD4F9EEC-8BC3-47C9-AC3F-737CA8450C2E}"
+	ProjectSection(SolutionItems) = preProject
+		CybSDK\Docs\ChangeLog.md = CybSDK\Docs\ChangeLog.md
+		CybSDK\Docs\CybSDK_Python.chm = CybSDK\Docs\CybSDK_Python.chm
+		CybSDK\Docs\ReadMe.md = CybSDK\Docs\ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E45F35B-D6C3-4CA5-BE86-1BBB8539DA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E45F35B-D6C3-4CA5-BE86-1BBB8539DA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B12BDA-9011-48AC-99D3-56221EC83DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B12BDA-9011-48AC-99D3-56221EC83DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB28264-628D-4E68-8F53-6E2F4385BCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB28264-628D-4E68-8F53-6E2F4385BCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9893C0D-17D8-457A-A3F7-75BEA602A655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9893C0D-17D8-457A-A3F7-75BEA602A655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28F73230-F0C0-4F94-8C72-28BF7215BEA0} = {DEB29B9D-70FE-43D8-BDCB-2A90AA5F0D94}
+		{DD4F9EEC-8BC3-47C9-AC3F-737CA8450C2E} = {DEB29B9D-70FE-43D8-BDCB-2A90AA5F0D94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E910C2B9-C191-4BD4-8F6E-F840257EF871}
+	EndGlobalSection
+EndGlobal
